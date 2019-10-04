@@ -1,4 +1,4 @@
-package project.hsm.xml.dtdindent;
+package project.hsm.xml.dtdformat;
 
 public class Token {
     private ChildElement childElement;

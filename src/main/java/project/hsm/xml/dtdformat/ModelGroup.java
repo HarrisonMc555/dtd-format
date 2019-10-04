@@ -1,4 +1,4 @@
-package project.hsm.xml.dtdindent;
+package project.hsm.xml.dtdformat;
 
 import java.util.*;
 import java.util.stream.*;

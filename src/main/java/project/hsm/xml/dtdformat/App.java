@@ -1,4 +1,4 @@
-package project.hsm.xml.dtdindent;
+package project.hsm.xml.dtdformat;
 
 import com.sun.xml.dtdparser.*;
 import java.io.*;
@@ -10,7 +10,7 @@ public class App {
     public static void main(String[] args) {
         try {
             String home = System.getProperty("user.home");
-            Path path = Paths.get(home, "git", "dtd-indent", "static",
+            Path path = Paths.get(home, "git", "dtd-format", "static",
                                   "example.dtd");
             InputSource in =
                     new InputSource(new FileInputStream(path.toFile()));

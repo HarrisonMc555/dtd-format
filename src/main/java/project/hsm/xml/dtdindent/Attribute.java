@@ -1,20 +1,19 @@
 package project.hsm.xml.dtdindent;
 
 class Attribute {
-    String elementName;
-    String attributeName;
-    String attributeType;
+    String name;
+    String type;
     String[] enumeration;
-    short attributeUse;
+    AttributeUse use;
     String defaultValue;
 
-    Attribute(String elementName, String attributeName, String attributeType,
-                     String[] enumeration, short attributeUse, String defaultValue) {
-        this.elementName = elementName;
-        this.attributeName = attributeName;
-        this.attributeType = attributeType;
+    Attribute(
+            String name, String type, String[] enumeration, AttributeUse use,
+            String defaultValue) {
+        this.name = name;
+        this.type = type;
         this.enumeration = enumeration;
-        this.attributeUse = attributeUse;
+        this.use = use;
         this.defaultValue = defaultValue;
     }
 }

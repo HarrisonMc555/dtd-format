@@ -23,3 +23,5 @@
         <!ATTLIST a
                 xlink:href CDATA #REQUIRED
                 xlink:type CDATA #FIXED "simple">
+        <!ELEMENT foo ANY >
+        <!ELEMENT bar EMPTY >

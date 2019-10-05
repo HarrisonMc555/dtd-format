@@ -33,5 +33,5 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = 'project.hsm.xml.dtdindent.App'
+    mainClassName = 'project.hsm.xml.dtdformat.App'
 }
